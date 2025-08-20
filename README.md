@@ -1,38 +1,4 @@
-### Code Quality
-
-#### Backend
-```bash
-# Code formatting
-black app/
-isort app/
-
-# Linting
-flake8 app/
-
-# Type checking
-mypy app/
-```
-
-#### Frontend
-```bash
-# Code formatting
-npm run format
-
-# Linting
-npm run lint
-
-# Type checking
-npm run type-check
-```
-
-## 🔒 Security Features
-
-- **JWT Authentication** with secure token handling
-- **Password Hashing** with bcrypt
-- **CORS Configuration** for cross-origin requests
-- **Input Validation** with Pydantic schemas
-- **SQL Injection Protection** with SQLAlchemy ORM
-- **XSS Protection** with proper data sanitization# FastAPI + Next.js Authentication System
+# FastAPI + Next.js Authentication System
 
 A full-stack authentication system built with **FastAPI** (backend), **Next.js** (frontend), and **shadcn/ui** for modern UI components. Features JWT-based authentication and password reset functionality.
 
